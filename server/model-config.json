@@ -46,5 +46,9 @@
   "phone_number": {
     "dataSource": "edilevary",
     "public": true
+  },
+  "country": {
+    "dataSource": "edilevary",
+    "public": true
   }
 }

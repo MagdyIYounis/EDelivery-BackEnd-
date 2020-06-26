@@ -38,8 +38,7 @@
     },
     "Point": {
       "type": "number"
-    }
-	,
+    },
     "Date": {
       "type": "date"
     }
