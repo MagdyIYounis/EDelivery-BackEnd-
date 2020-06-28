@@ -14,10 +14,6 @@
       "type": "string",
       "required": true
     },
-    "Governorate_Name": {
-      "type": "string",
-      "required": true
-    },
     "District_Number": {
       "type": "number"
     },
