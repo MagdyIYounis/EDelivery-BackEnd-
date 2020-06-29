@@ -50,5 +50,9 @@
   "country": {
     "dataSource": "edilevary",
     "public": true
+  },
+  "customer_v": {
+    "dataSource": "edilevary",
+    "public": true
   }
 }

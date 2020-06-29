@@ -8,7 +8,7 @@
   "properties": {
     "Country_ID": {
       "type": "number",
-	  "id":true
+      "id": true
     },
     "Country_Name": {
       "type": "string",
