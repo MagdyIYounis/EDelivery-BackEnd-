@@ -8,8 +8,8 @@
   "properties": {
     "Cust_ID": {
       "type": "number",
-      "required": true,
-	  "id":true
+      "id": true,
+      "required": true
     },
     "Cust_Name": {
       "type": "string",

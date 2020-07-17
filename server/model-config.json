@@ -54,5 +54,33 @@
   "customer_v": {
     "dataSource": "edilevary",
     "public": true
+  },
+  "Type_Of_Shop": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Client": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Phone_Client": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Unit": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Price": {
+    "dataSource": "edilevary",
+    "public": true
   }
 }

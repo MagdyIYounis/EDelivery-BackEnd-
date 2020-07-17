@@ -1,0 +1,33 @@
+{
+  "name": "Product",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID_Product": {
+      "type": "number",
+      "id": true
+    },
+    "Name_Pro": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Info": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "prices": {
+      "type": "hasMany",
+      "model": "Price",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
