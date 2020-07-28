@@ -1,20 +1,14 @@
 {
-  "name": "Price",
+  "name": "Type_Client",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "ID_Price": {
+    "ID_Type_Client": {
       "type": "number",
       "id": true
-    },
-    "Price": {
-      "type": "number"
-    },
-    "Date": {
-      "type": "string"
     }
   },
   "validations": [],

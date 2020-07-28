@@ -25,9 +25,9 @@
       "model": "Customer",
       "foreignKey": ""
     },
-    "clients": {
+    "cityClients": {
       "type": "hasMany",
-      "model": "Client",
+      "model": "City_Client",
       "foreignKey": ""
     }
   },

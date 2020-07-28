@@ -20,9 +20,9 @@
   },
   "validations": [],
   "relations": {
-    "clients": {
+    "typeClients": {
       "type": "hasMany",
-      "model": "Client",
+      "model": "Type_Client",
       "foreignKey": ""
     }
   },

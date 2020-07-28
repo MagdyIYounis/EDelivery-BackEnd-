@@ -82,5 +82,13 @@
   "Price": {
     "dataSource": "edilevary",
     "public": true
+  },
+  "City_Client": {
+    "dataSource": "edilevary",
+    "public": true
+  },
+  "Type_Client": {
+    "dataSource": "edilevary",
+    "public": true
   }
 }

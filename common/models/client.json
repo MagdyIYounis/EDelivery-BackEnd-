@@ -39,6 +39,16 @@
       "type": "hasMany",
       "model": "Price",
       "foreignKey": ""
+    },
+    "cityClients": {
+      "type": "hasMany",
+      "model": "City_Client",
+      "foreignKey": ""
+    },
+    "typeClients": {
+      "type": "hasMany",
+      "model": "Type_Client",
+      "foreignKey": ""
     }
   },
   "acls": [],
