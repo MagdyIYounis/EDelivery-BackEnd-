@@ -1,0 +1,56 @@
+{
+  "name": "Client",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Code_Client": {
+      "type": "number",
+      "id": true
+    },
+    "Name_Client": {
+      "type": "string",
+      "required": true
+    },
+    "Name_Of_owner": {
+      "type": "string",
+      "required": true
+    },
+    "Info": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Rate": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "phoneClients": {
+      "type": "hasMany",
+      "model": "Phone_Client",
+      "foreignKey": ""
+    },
+    "prices": {
+      "type": "hasMany",
+      "model": "Price",
+      "foreignKey": ""
+    },
+    "cityClients": {
+      "type": "hasMany",
+      "model": "City_Client",
+      "foreignKey": ""
+    },
+    "typeClients": {
+      "type": "hasMany",
+      "model": "Type_Client",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

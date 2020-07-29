@@ -1,0 +1,33 @@
+{
+  "name": "Category",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID_Cat": {
+      "type": "number",
+      "id": true
+    },
+    "Name_Cat": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "products": {
+      "type": "hasMany",
+      "model": "Product",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -24,6 +24,11 @@
       "type": "hasMany",
       "model": "Customer",
       "foreignKey": ""
+    },
+    "cityClients": {
+      "type": "hasMany",
+      "model": "City_Client",
+      "foreignKey": ""
     }
   },
   "acls": [
