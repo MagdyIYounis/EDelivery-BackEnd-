@@ -90,5 +90,9 @@
   "Type_Client": {
     "dataSource": "edilevary",
     "public": true
+  },
+  "client_v": {
+    "dataSource": "edilevary",
+    "public": true
   }
 }

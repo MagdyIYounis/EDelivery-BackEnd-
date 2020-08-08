@@ -5,13 +5,13 @@
     "file": "db.json"
   },
   "edilevary": {
-    "host": "localhost",
-    "port": 3306,
+    "host": "mysql-11713-0.cloudclusters.net",
+    "port": 11713,
     "url": "",
     "database": "edilevary",
-    "password": "",
+    "password": "Mego2010@@",
     "name": "edilevary",
-    "user": "root",
+    "user": "Magdy",
     "connector": "mysql"
   }
 }
