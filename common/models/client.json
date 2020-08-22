@@ -24,6 +24,7 @@
     "Date": {
       "type": "date"
     },
+	
     "Rate": {
       "type": "number"
     }

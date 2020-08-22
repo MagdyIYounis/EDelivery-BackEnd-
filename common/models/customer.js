@@ -9,7 +9,7 @@ module.exports = function (Customer) {
 
                 var options = {
                     'method': 'GET',
-                    'url': baseUrl + '/api/Customers/' + ID + '/exists',
+                    'url': address + '/api/Customers/' + ID + '/exists',
                     'headers': {
                         'Content-Type': ['application/json']
                     }
