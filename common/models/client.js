@@ -6,11 +6,11 @@ module.exports = function(Client) {
 		
 		if (ctx.isNewInstance) {
             var set = () => {
-                var ID = Math.random() * (150 - 80) + 80;
+                var ID = Math.round(Math.random() * (150 - 80) + 80);
 
                 var options = {
                     'method': 'GET',
-                    'url': address + '/api/Client/' + ID + '/exists',
+                    'url': address + '/api/Clients/' + ID + '/exists',
                     'headers': {
                         'Content-Type': ['application/json']
                     }
