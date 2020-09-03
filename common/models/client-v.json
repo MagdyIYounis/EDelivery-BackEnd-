@@ -1,0 +1,39 @@
+{
+  "name": "client_v",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Code_Client": {
+      "type": "number",
+	  "id": true
+    },
+    "Name_client": {
+      "type": "string"
+    },
+    "Name_Of_owner": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Rate": {
+      "type": "number"
+    },
+    "Cities": {
+      "type": "string"
+    },
+    "Types": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
